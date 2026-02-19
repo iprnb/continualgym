@@ -13,19 +13,7 @@ Most RL benchmarks are episodic and stationary. Continual RL research needs:
 3. **Non-Markov challenges** — sensor failure, time-varying partial observability.
 4. **Drop-in compatibility** — works with any `gym.Env` without touching the base env code.
 
-ContinualGym provides all of this via a thin, composable wrapper stack.
-
----
-
-## Installation
-
-```bash
-pip install continualgym               # core (numpy + gymnasium)
-pip install continualgym[viz]          # + matplotlib
-pip install continualgym[mujoco]       # + MuJoCo envs
-pip install continualgym[box2d]        # + Box2D envs (LunarLander etc.)
-pip install continualgym[dev]          # + pytest, mypy, black
-```
+ContinualGym provides all of this via a composable wrapper stack.
 
 ---
 
