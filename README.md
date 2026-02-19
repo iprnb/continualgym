@@ -1,7 +1,7 @@
-# ContinualGym
+# ContinualGym  
 
 Transform any standard Gymnasium environment into a **non-stationary, continuing** task for continual reinforcement learning research.
-
+![Tests](https://github.com/iprnb/continualgym/actions/workflows/tests.yml/badge.svg)
 ---
 
 ## Why ContinualGym?
