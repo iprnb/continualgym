@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "continualgym"
+version = "0.1.0"
+description = "Transform standard Gym environments into non-stationary continuing tasks for continual RL research."
+requires-python = ">=3.9"
+dependencies = [
+    "gymnasium>=0.29",
+    "numpy>=1.21",
+]
+
+[project.optional-dependencies]
+viz      = ["matplotlib>=3.5"]
+analysis = ["pandas>=1.4", "matplotlib>=3.5"]
+mujoco   = ["gymnasium[mujoco]"]
+box2d    = ["gymnasium[box2d]"]
+dev      = ["pytest>=7.0", "pytest-cov", "black", "isort", "mypy"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["continualgym*"]
