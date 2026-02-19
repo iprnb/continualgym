@@ -270,9 +270,6 @@ pytest tests/ -v
 ## Note
 This repository contains early-stage research prototypes.
 APIs are incomplete and subject to change.
-The focus is on exploring system design and evaluation patterns.## Note
-This repository contains early-stage research prototypes.
-APIs are incomplete and subject to change.
 The focus is on exploring system design and evaluation patterns.
 
 ---
