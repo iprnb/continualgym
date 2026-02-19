@@ -1,6 +1,6 @@
 # ContinualGym
 
-> Transform any standard Gymnasium environment into a **non-stationary, continuing** task for continual reinforcement learning research.
+Transform any standard Gymnasium environment into a **non-stationary, continuing** task for continual reinforcement learning research.
 
 ---
 
@@ -267,10 +267,10 @@ pip install continualgym[dev]
 pytest tests/ -v
 ```
 
-## Note
-This repository contains early-stage research prototypes.
-APIs are incomplete and subject to change.
-The focus is on exploring system design and evaluation patterns.
+## Status
+
+Active development. Core pipeline is functional end-to-end.
+Contributions and feedback welcome — open an issue to get started.
 
 ---
 
